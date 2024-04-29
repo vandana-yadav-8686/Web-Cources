@@ -1,0 +1,70 @@
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+} 
+.spad {
+    padding-top: 115px;
+    padding-bottom: 50px;
+}
+.section-title {
+    text-align: center;
+    padding: 0 110px;
+    margin-bottom: 110px;
+}
+.section-title h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.section-title p {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+    font-weight: 500;
+}
+
+/* -----------------------Catagories items-------------------------- */
+.categorie-item {
+    margin-bottom: 34px;
+    background: #edf4f6;
+    
+    transition: all 0.4s;
+}
+.categorie-item .ci-thumb {
+    background-size: cover;
+    height: 148px;
+
+    transition: all 0.2s;
+}
+.categorie-item .ci-text {
+    padding: 40px 35px;
+}
+.categorie-item .ci-text h5 {
+    margin-bottom: 5px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 600;
+    color: #474747;
+}
+p {
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+    font-weight: 500;
+}
+
+.categorie-item .ci-text span {
+    font-size: 18px;
+    font-weight: 600;
+    color:  #008080;
+}
+.categorie-item:hover{
+    background-color: #008080;
+}
+.categorie-item:hover .ci-text h5, .categorie-item:hover .ci-text p, .categorie-item:hover .ci-text span {
+    color: #fff;
+}
+ 

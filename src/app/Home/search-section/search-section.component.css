@@ -1,0 +1,60 @@
+/* .container {
+    max-width: 1180px;
+}
+.search-warp {
+    background: #0eafaf;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.search-warp .section-title {
+    
+    margin-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.course-search-form {
+    background: #fff;
+    padding: 44px 38px;
+}
+.course-search-form input[type=text], .course-search-form input[type=email] {
+    height: 56px;
+    width: 36.6%;
+    padding: 0 30px;
+    margin-right: 18px;
+    float: left;
+    border: none;
+    font-size: 14px;
+    background: #edf4f6;
+}
+.course-search-form .site-btn {
+    min-width: 198px;
+    padding: 16px 10px;
+}
+.site-btn {
+    display: inline-block;
+    min-width: 196px;
+    text-align: center;
+    border: none;
+    padding: 15px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    background: #008080;
+} */
+
+.set-bg{
+  
+    background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.377), rgba(0, 0, 0, 0.199)), url("./../../../assets/searchImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+

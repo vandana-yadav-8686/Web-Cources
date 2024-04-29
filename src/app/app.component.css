@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+   
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+}
+.header-section {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+ 
+}
+.site-logo h2{
+   color: white; 
+   font-family: 'Dancing Script', cursive;
+}
+.site-logo h2 span{
+    color: #008080;
+    font-weight: 900;
+    font-family: 'EB Garamond', serif;
+
+    
+}
+.site-btn{
+    display: inline-block;
+    min-width: 196px;
+    text-align: center;
+    border: none;
+    padding: 15px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    background: #008080;
+}
+.header-btn {
+    float: right;
+    margin-right: 0;
+}
+nav {
+    display: block;
+}
+.main-menu ul {
+    list-style: none;
+}
+
+.main-menu ul li {
+    display: inline;
+}
+.main-menu ul li a {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    margin-left: 45px;
+    font-weight: 600;
+    padding: 20px 0 5px;
+    text-decoration: none;
+}
+/* -------------------- section 1-------------------------- */
+/* .set-bg{
+    background-image: url("./../assets/backGround.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+    background-position: top center;
+} */
+.hero-section {
+    height: 948px;
+}
+.hero-text {
+    text-align: center;
+    padding-top: 340px;
+    margin-bottom: 105px;
+}
+.hero-text h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 14.1px;
+    color: #878787;
+    line-height: 2.2;
+    font-weight: 500;
+}
+
+.text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6, .text-white p, .text-white span, .text-white li, .text-white a {
+    color: #fff;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.intro-newslatter input[type=text], .intro-newslatter input[type=email] {
+    height: 53px;
+    width: 36.4%;
+    padding: 0 30px;
+    margin-right: 22px;
+    float: left;
+    border: none;
+    font-size: 14px;
+}
+
+.intro-newslatter .site-btn {
+    min-width: 214px;
+}
